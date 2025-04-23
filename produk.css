@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+body{
+    background-color: #f1f1f1;
+}
+
+.weapon-list .item{
+    padding: 20px;
+    background: #410000d1;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transform: all 0.3s case;
+}
+
+.weapon-list .item:hover{
+    box-shadow: none;
+}
+.weapon-list{
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.weapon-list .item img{
+    width: 280px;
+    height: 280px;
+    border-radius: 18px;
+}
+
+.weapon-list .item .info{
+    padding: 1px 0;
+}
+
+.weapon-list .item .info h5{
+    font-size: 30px;
+    color: #fff;
+}
+
+.weapon-list .item .info p{
+    font-size: 30px;
+    color: #fff;
+}
+
+.Detail{
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    width: 60px;
+    padding: 8px;
+    border-radius: 69px;
+    margin-bottom: 10px;
+}
+
+.Buy{
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    width: 45px;
+    padding: 8px;
+    border-radius: 69px;
+}

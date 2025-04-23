@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+nav{
+    padding: 0 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+
+nav a.Logo{
+    font-size: 50px;
+    color: #ff0000;
+    font-weight: 600;
+}
+
+nav .links a:not(:last-child){
+    margin-right: 20px;
+}
+
+nav .login button{
+    padding: 8px 14px;
+    border: none;
+    margin-right: 14px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+nav .login button.daftar{
+    background-color: #ff0000;
+    color: #fff;
+    border-radius: 4px;
+    margin-right: 14px;
+}
+
+header{
+    padding: 0 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: calc(100vh - 80px);
+}
+
+header .left{
+    width: 700px;
+}
+
+header .left h1{
+    font-size: 65px;
+}
+
+header .left h1 span{
+    color: #ff0000;
+}
+
+header .left p{
+    margin: 40px 0;
+    color: #777;
+}
+
+header .left a{
+    display: flex;
+    align-items: center;
+    background: #000;
+    width: 200px;
+    padding: 8px;
+    border-radius: 69px;
+}
+
+header .left a i{
+    background-color: #fff;
+    font-size: 24px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+header .left a span{
+    color: #fff;
+    margin-left: 10px;
+}
+
+header img{
+    width: 500px;
+}
