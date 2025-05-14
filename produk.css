@@ -18,7 +18,7 @@ body{
     background: #410000d1;
     border-radius: 20px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-    transform: all 0.3s case;
+    transform: all 0.3s ease;
 }
 
 .weapon-list .item:hover{
